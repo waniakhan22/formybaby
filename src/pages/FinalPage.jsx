@@ -11,7 +11,7 @@ function FinalPage() {
       </button>
 
       <div className="final-card">
-        <img src="/last.jpeg" alt="Final love image" className="final-image" />
+        <img src={`${import.meta.env.BASE_URL}last.jpeg`} alt="Final love image" className="final-image" />
         <p className="final-message">safe journeyyyyy bachaaaa</p>
       </div>
     </main>

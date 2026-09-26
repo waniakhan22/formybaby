@@ -7,9 +7,9 @@ function Home() {
   return (
     <main className="home-page">
       <picture className="home-picture">
-        <source media="(max-width: 768px)" srcSet="/home-mobile.jpg" />
+        <source media="(max-width: 768px)" srcSet={`${import.meta.env.BASE_URL}home-mobile.jpg`} />
         <img
-          src="/home-desktop.jpg"
+          src={`${import.meta.env.BASE_URL}home-desktop.jpg`}
           alt="Home background"
           className="home-image"
         />

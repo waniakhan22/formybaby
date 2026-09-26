@@ -144,7 +144,7 @@ function BouquetDetailPage() {
           </div>
 
           <button type="button" className="photo-trigger" onClick={openReasons} aria-label="Open love scrapbook">
-            <img src="/irtaza.jpeg" alt="Irtaza" />
+            <img src={`${import.meta.env.BASE_URL}irtaza.jpeg`} alt="Irtaza" />
           </button>
         </section>
 

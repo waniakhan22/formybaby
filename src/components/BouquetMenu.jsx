@@ -2,8 +2,9 @@ import { useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Bouquet from './Bouquet';
 import Decorations from './Decorations';
-import bouquet1 from '/image/flower1.png';
-import bouquet2 from '/image/flower2.png';
+
+const bouquet1 = `${import.meta.env.BASE_URL}image/flower1.png`;
+const bouquet2 = `${import.meta.env.BASE_URL}image/flower2.png`;
 
 const bouquets = [
   {
