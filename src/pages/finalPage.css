@@ -1,0 +1,50 @@
+.final-page {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #fff7fb 0%, #fdf2f9 100%);
+  padding: 40px 20px;
+}
+
+.final-card {
+  width: min(720px, 92vw);
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(255, 125, 174, 0.2);
+  border-radius: 30px;
+  padding: 18px;
+  box-shadow: 0 28px 60px rgba(166, 92, 122, 0.12);
+}
+
+.final-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+  object-fit: cover;
+}
+
+.final-message {
+  margin: 16px 0 0;
+  text-align: center;
+  color: #c24d7a;
+  font-size: clamp(1.2rem, 2vw, 1.8rem);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-family: "Segoe Print", "Bradley Hand", cursive;
+}
+
+.detail-back {
+  position: absolute;
+  top: 26px;
+  left: 26px;
+  border: none;
+  background: rgba(255, 255, 255, 0.8);
+  color: #af3e66;
+  padding: 0.8rem 1.1rem;
+  border-radius: 999px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 16px 28px rgba(175, 62, 102, 0.12);
+}
